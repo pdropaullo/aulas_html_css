@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 100px;
+    grid-template-columns: 25% auto auto auto;
+    grid-template-areas: "laranja_1 laranja_1 vermelho vermelho"
+                        "verde_1 verde_2 verde_2 verde_2"
+                        "laranja_2 laranja_2 laranja_2 laranja_2";
+    gap: 10px;
+    padding: 10px;
+}
+
+.laranja_1{
+    grid-area: laranja_1;
+    background-color: orange;
+}
+
+.vermelho{
+    grid-area: vermelho;
+    background-color: red;
+}
+
+.verde_1{
+    grid-area: verde_1;
+    background-color: green;
+}
+
+.verde_2{
+    grid-area: verde_2;
+    background-color: greenyellow;
+}
+
+.laranja_2{
+    grid-area: laranja_2;
+    background-color: orangered;
+}

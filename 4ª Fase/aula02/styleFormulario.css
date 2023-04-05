@@ -1,0 +1,47 @@
+button{
+    border-radius:12.5px;
+    border: none;
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+button:hover{
+    background-color: gray;
+    color: black;
+}
+
+p{
+    width: 400px;
+    margin: 20px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.esquerda{
+    height: 200px;
+    width: 500px;
+    background-color: green;
+}
+
+.direita{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+}
+
+input{
+    width: 450px;
+    margin: 20px;
+}
+
+h2{
+    margin: 20px;
+}
